@@ -26,11 +26,11 @@ void input(int length, int width){
   cin>>width;
 }
 
-void input(int &length, int &width){
+/* void input(int &length, int &width){
 
   cout<<"Enter length";
   cin>>length;
 
   cout<<"Enter width";
   cin>>width;
-}
+}*/
