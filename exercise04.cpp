@@ -19,3 +19,18 @@ void print(int len, int wth) {
 }
 
 // Implement the Input Function here
+void input(int length, int width){
+  cout<<"Enter length";
+  cin>>length;
+  cout<<"Enter width";
+  cin>>width;
+}
+
+void input(int &length, int &width){
+
+  cout<<"Enter length";
+  cin>>length;
+
+  cout<<"Enter width";
+  cin>>width;
+}
